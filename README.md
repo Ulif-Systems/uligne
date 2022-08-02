@@ -9,4 +9,4 @@ Uligne is compatible with most Debian based distros such as
 - Debian
 
 # How do I install Uligne?
-Download the installer from [the packages tab]() or get it [from our website](https://ulif.neocities.org/uligne/index.html)
+Download the installer from [the releases tab](https://github.com/Ulif-Systems/uligne/releases/) or get it [from our website](https://ulif.neocities.org/uligne/index.html)

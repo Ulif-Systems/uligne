@@ -1,0 +1,18 @@
+#!/bin/python3
+import os
+import argparse
+parser = argparse.ArgumentParser()
+
+parser.add_argument('-i', '--install', dest="package_name", help="Install a Ulif package")
+parser.add_argument('-p', '--info', dest="package_id", help="Get info about a package.")
+
+args = parser.parse_args()
+
+if args.package_name:
+    os.system(f'python3 ~/.local/lib/uligne/install.py {args.package_name}')
+
+elif args.package_id:
+    os.system(f'python3 ~/.local/lib/uligne/info.py {args.package_id}')
+
+else :
+    print(f'Invalid option - Use "uligne -h" for help.')
